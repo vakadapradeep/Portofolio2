@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Pradeep Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- First Section: Introduction -->
+        <section class="firstSection">
+            <div class="leftSection">
+                <h2>Hi, My name is <span class="purple">Pradeep</span></h2>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="https://wallpapers.com/images/hd/isometric-developer-workspace-concept-fojqfrrz356ldzsr.png" alt="Developer workspace">
+            </div>
+        </section>
+        <hr>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a Web Developer with a passion for creating responsive, user-friendly websites. My skills range from front-end technologies like HTML, CSS, and JavaScript, to back-end development with Node.js and Express.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Web Development Portfolio</h3>
+                <p>This is my personal portfolio website where I showcase my web development projects, skills, and experience.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Gesture-based Tools using Computer Vision</h3>
+                <p> A gesture-based tool developed using Python, featuring a convolutional neural network (CNN) for image classification. 
+                    <br>The system employs transfer learning and fine-tuning techniques to enhance performance. 
+                    <br>OpenCV library is used for image detection to identify and classify activities based on movement patterns and hand positions in video frames.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:vakadapradeep4@gmail.com">vakadapradeep4@gmail.com</a></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Pradeep. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
